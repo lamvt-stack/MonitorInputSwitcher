@@ -1,0 +1,7 @@
+// Application and tray icons (ids must match IDI_APP / IDI_TRAY_LIGHT / IDI_TRAY_DARK in the .cpp).
+// The lowest id (1) is the icon Explorer shows for the .exe.
+1   ICON "app.ico"
+#ifndef MIS_CLI
+101 ICON "tray-light.ico"
+102 ICON "tray-dark.ico"
+#endif
